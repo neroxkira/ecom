@@ -1,9 +1,11 @@
 {
   "private": true,
+{
   "engines": {
-    "node": ">=20",
-    "pnpm": ">=9"
+    "pnpm": "^7.5.1"
   },
+  "packageManager": "pnpm@7.5.1"
+},
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
@@ -36,11 +38,6 @@
     "typescript": "5.5.4"
   },
   {
-  "engines": {
-    "pnpm": "^7.5.1"
-  },
-  "packageManager": "pnpm@7.5.1"
-},
   "pnpm": {
     "overrides": {
       "@types/react": "npm:types-react@19.0.0-rc.1",
